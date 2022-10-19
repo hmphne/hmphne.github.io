@@ -1,0 +1,96 @@
+*{
+padding: 0;
+margin: 0;
+color: #001d58;
+
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 20px 20vh;
+  font-family: Roboto;
+}
+.app-bar {
+  height: 70px;
+  background-color: #001d58 !important;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+  align-items: center;
+  /* align-content: space-between !important; */
+}
+
+.app-bar Button {
+  color: white;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  font-size: 2rem !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.News-feed {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.News-title {
+  display: flex;
+  align-items: flex-start;
+  font-size:22px;
+}
+.News-sum {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 5px;
+  padding-right: 15px;
+  font-size: 15px;
+  color: gray;
+}
+.News-img {
+  width: 19vh;
+  height: 100px;
+  padding-left: 10px;
+}
+.News-media {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loader  {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .App {
+    margin:20px 20px;
+  }
+  .News-img {
+    width: 100px;
+    height: auto;
+  }
+}
